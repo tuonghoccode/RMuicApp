@@ -249,7 +249,7 @@ function App() {
   return (
     <div className="interfaceContainer">
       <div className="radioContainer">
-        <div className="logo">StudyBeats</div>
+        <div className="logo">RMusicApp</div>
         <div className="subHeading"></div>
         <div className="radioStationsContainer">
           <RadioStations
@@ -273,7 +273,7 @@ function App() {
               whileHover={{ scale: 1.09 }}
               whileTap={{ scale: 0.9 }}
               onClick={() => {
-                window.open("https://github.com/adamPatrick12");
+                window.open("https://github.com/tuonghoccode");
               }}
               className="link"
             >
@@ -285,12 +285,12 @@ function App() {
       </div>
       <div className="audioControlContainer">
         <AudioControls
-        plauPause={handlePausePlaySwitch}
-        buttonClass={BtnClass}
-        playPauseImage={playPauseImg}
-        buttonClass2={BtnClass2}
-        LiveStreamAudio={currentLivestream}
-        LiveStreamPlayPause={livestream}
+          plauPause={handlePausePlaySwitch}
+          buttonClass={BtnClass}
+          playPauseImage={playPauseImg}
+          buttonClass2={BtnClass2}
+          LiveStreamAudio={currentLivestream}
+          LiveStreamPlayPause={livestream}
         />
       </div>
       <div className={pauseScreen}>
@@ -309,8 +309,6 @@ function App() {
           url={video}
         />
       </div>
-
-      
 
       <Loading />
     </div>
